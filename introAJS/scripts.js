@@ -84,3 +84,26 @@ familia.forEach(function(f, index) {
 console.log(frutas[0]);
 
 let textoAleatorio = console.log(frutas[1],numeros[3],familia[4]);
+
+let unaEdad = prompt('Mi edad');
+let otraEdad = prompt('Otra edad');
+console.log("Mi edad es igual a la de mi compañero: " + (unaEdad == otraEdad));
+console.log("Mi edad es mayor a la de mi compañero: " + (unaEdad > otraEdad));
+console.log("Mi edad es menor a la de mi compañero: " + (unaEdad < otraEdad));
+
+if(unaEdad > 18){
+    console.log("soyMayorDeEdad");
+}
+else{
+    console.log("noSoyMayorDeEdad");
+}
+
+let edad = prompt('una Edad');
+let altura = prompt('una Altura');
+let puedeSubir = (edad > 6) && (altura > 120);
+if(puedeSubir){
+    console.log("Puede subir");
+}
+else{
+    console.log("No puede subir");
+}
