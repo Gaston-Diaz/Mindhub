@@ -33,7 +33,7 @@ let divisionEdades = miEdad / edadMascota;
 console.log(sumaEdades);
 console.log(restaEdades);
 console.log(productoEdades);
-console.log(divisionEdades); */
+console.log(divisionEdades); 
 
 var Alumno = {
     aNombre: "jose",
@@ -106,4 +106,9 @@ if(puedeSubir){
 }
 else{
     console.log("No puede subir");
-}
+} */
+
+let pase = prompt('unPase');
+let saldo = prompt('unSaldo');
+let puedePasar = (pase == "VIP")||(saldo > 1000);
+console.log("Puede pasar: " + puedePasar);
